@@ -11,15 +11,15 @@ function init(){
 
 	// Image object for snake face
 	snake_face = new Image();
-	snake_face.src = "Images/snake.png";
+	snake_face.src = "snake.png";
 
 	//Image Object for food
 	food_img = new Image();
-	food_img.src = "Images/apple.png";
+	food_img.src = "apple.png";
 
 	//Image object for trophy 
 	trophy = new Image();
-	trophy.src = "Images/trophy.png";
+	trophy.src = "trophy.png";
 
 	food = getRandomFood();
 
